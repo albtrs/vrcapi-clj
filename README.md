@@ -2,6 +2,8 @@
 
 WIP.
 
+## example
+
 ```clojure
 (ns sample.core
   (:require [vrcapi-clj.core :as client])
@@ -17,4 +19,11 @@ WIP.
                               :query {:n 1
                                       :offset 100}))
     (println json)))
+```
+
+## testing
+
+```clojure
+;use test-runner lib
+clj -A:test
 ```
